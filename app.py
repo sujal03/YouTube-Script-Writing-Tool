@@ -28,7 +28,7 @@ submit = st.button("Generate Script for me")
 
 if submit:
 
-    search_result,title,script = generate_script(prompt,video_length,creativity,st.session_state['API_Key'])
+    search_result,title,script = generate_script(prompt,video_length,creativity)
     #Let's generate the script
     st.success('Hope you like this script ❤️')
     #Display Title
