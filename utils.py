@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Function to generate video script
-def generate_script(prompt,video_length,creativity,api_key):
+def generate_script(prompt,video_length,creativity):
     
     # Template for generating 'Title'
     title_template = PromptTemplate(
